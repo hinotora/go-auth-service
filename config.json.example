@@ -1,0 +1,18 @@
+{
+    "app": {
+        "url": "http://127.0.0.1",
+        "port": 80,
+        "environment": "production"
+    },
+    "db": {
+        "host": "http://127.0.0.1",
+        "port": 3306,
+        "db": "database",
+        "user": "username",
+        "password": "password"
+    },
+    "auth": {
+        "jwt-secret-key": "super-secret-key-for-signing-tokens",
+        "jwt-time-to-live": 60
+    }
+}
